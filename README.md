@@ -76,7 +76,7 @@ Outputs are preliminary and must be reviewed by a competent engineer. Public DEM
 reflect local survey levels, recent earthworks, retaining structures, vegetation, or built
 obstructions.
 
-The OpenCalcs registry includes reviewed AS/NZS 1170.2 pressure-to-frame conversion and
+The EngCalcs registry includes reviewed AS/NZS 1170.2 pressure-to-frame conversion and
 a separate preliminary AS 4055 housing assessment. The latter supports supplied site
 categories, simple flat/gable pressure zones, Table 4 anchoring and Tables 5.2(A-M)
 racking demand. See [API scope](docs/api.md) and the
@@ -359,9 +359,9 @@ OpenWind-AU is licensed under `AGPL-3.0-only`. See `LICENSE` and `NOTICE`.
 
 Canonical source: https://github.com/Elandu/OpenWind-AU
 
-Every OpenCalcs plugin descriptor published by OpenWind-AU includes the engine
+Every EngCalcs plugin descriptor published by OpenWind-AU includes the engine
 version, source revision when available, licence identifier, and canonical source URL.
-OpenCalcs uses this metadata to preserve engine provenance in calculation outputs
+EngCalcs uses this metadata to preserve engine provenance in calculation outputs
 and saved engineering records.
 
 Substantive Python source files carry SPDX licence and copyright headers so that

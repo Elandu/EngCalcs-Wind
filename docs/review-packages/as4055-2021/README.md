@@ -31,7 +31,7 @@ access to the licensed source above and verify the version and hash before sign-
 - `src/openwind_au/as4055.py`: scope checks, Table 2.2 lookup, Table 2.1 class speeds,
   roof/wall class suffixes, Clause 3.2 coefficient values, pressure/force equations, a
   single-load-path net-suction resultant helper, and racking-force arithmetic.
-- `src/openwind_au/calculations/registry.py`: OpenCalcs definitions under
+- `src/openwind_au/calculations/registry.py`: EngCalcs definitions under
   `au.wind.as4055.*`.
 - `src/openwind_au/calculations/as4055_extensions.py`: automatic simple zones, roof
   anchoring, racking pressure selection/interpolation and combined housing assessment.

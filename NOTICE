@@ -8,7 +8,7 @@ Canonical source:
 https://github.com/Elandu/OpenWind-AU
 
 OpenWind-AU calculation modules expose source, licence, version and revision
-metadata through the OpenCalcs plugin contract so engineering records can
+metadata through the EngCalcs plugin contract so engineering records can
 identify the software used to produce them.
 
 If you modify OpenWind-AU and make the modified program available for remote

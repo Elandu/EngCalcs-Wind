@@ -2,7 +2,7 @@
 
 ## Implementation update — 2026-09-29
 
-A first, preliminary implementation now exists in `src/openwind_au/as4055.py`, the OpenCalcs
+A first, preliminary implementation now exists in `src/openwind_au/as4055.py`, the EngCalcs
 registry, and the AS 4055 API routes. It includes geometry guards, a Table 2.2 class lookup
 from supplied categories, Table 2.1 speeds, roof/wall suffixes, Section 3 surface pressures
 and forces, simple flat/gable automatic zones, Table 4 anchoring, and Tables 5.2(A-M)

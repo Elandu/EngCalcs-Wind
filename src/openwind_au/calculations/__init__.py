@@ -5,7 +5,7 @@
 
 The public functions in the existing OpenWind modules remain the source of truth.
 This package only describes and dispatches those calculations for external hosts
-such as OpenCalcs.
+such as EngCalcs.
 """
 
 from openwind_au.calculations.contracts import (

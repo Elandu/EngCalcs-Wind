@@ -254,7 +254,7 @@ def test_as4055_api_classifies_and_calculates_in_a_separate_path() -> None:
     assert loads_response.json()["status"] == "preliminary_independent_review_required"
 
 
-def test_opencalcs_registry_exposes_as4055_as_a_separate_standard_path() -> None:
+def test_engcalcs_registry_exposes_as4055_as_a_separate_standard_path() -> None:
     ids = {item["id"] for item in list_calculations()}
     assert {
         "au.wind.as4055.classify_housing_site",

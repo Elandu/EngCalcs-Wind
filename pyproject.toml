@@ -64,6 +64,9 @@ dev = [
 openwind-au = "openwind_au.main:main"
 openwind-au-mcp = "openwind_au.mcp_server:main"
 
+[project.entry-points."engcalcs.plugins"]
+openwind_au = "openwind_au.plugin:get_plugin"
+
 [project.entry-points."opencalcs.plugins"]
 openwind_au = "openwind_au.plugin:get_plugin"
 

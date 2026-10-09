@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # Copyright (c) 2026 Elandu and contributors
 
-"""OpenCalcs discovery entry point for OpenWind-AU."""
+"""EngCalcs discovery entry point for OpenWind-AU."""
 
 from __future__ import annotations
 

@@ -193,7 +193,7 @@ class PanelPressureResult(BaseModel):
 
 
 class MemberDistributedLoad(BaseModel):
-    """OpenCalcs contract record plus source and sign-attribution metadata."""
+    """EngCalcs contract record plus source and sign-attribution metadata."""
 
     model_config = ConfigDict(extra="forbid", strict=True, frozen=True)
 
@@ -240,7 +240,7 @@ class WindFrameLoadResult(BaseModel):
 
     @property
     def member_distributed_loads(self) -> list[dict[str, object]]:
-        """Return fields in the OpenCalcs member distributed-load contract."""
+        """Return fields in the EngCalcs member distributed-load contract."""
 
         return [
             {

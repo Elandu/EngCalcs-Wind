@@ -138,7 +138,7 @@ outside the automatic path. All AS 4055 results remain preliminary. See the
 
 ### AS/NZS 1170.2 pressures and frame loads
 
-The OpenCalcs registry method `au.wind.frame_loads` accepts `pressure_cases`, `panels`,
+The EngCalcs registry method `au.wind.frame_loads` accepts `pressure_cases`, `panels`,
 and `tributary_members`. Each case names its exact source run, direction, limit state,
 external/internal design speeds and dynamic-sensitivity decision. Each panel supplies
 reviewed aggregate external/internal shape factors, area and review references. Tributary
@@ -153,8 +153,8 @@ These are arithmetic fixture values; they do not select coefficients for a real 
 The result includes `panel_pressures`, rich `member_loads` provenance and the compact
 `member_distributed_loads` array consumed by Frame analysis. Link that exact saved output
 to `/model/member_distributed_loads`. The source-run field in a standalone request is a
-caller reference; authenticated OpenCalcs links provide verified database provenance.
-When linking design speeds in OpenCalcs, link both speed fields individually from the same
+caller reference; authenticated EngCalcs links provide verified database provenance.
+When linking design speeds in EngCalcs, link both speed fields individually from the same
 saved wind run and set the case's `source_run_id` to that run ID. The linked runners reject
 partial, mixed-source or mismatched links. Direct unlinked requests remain caller assertions.
 Dynamic-sensitive structures and inclined normal-to-axis projection are unsupported.

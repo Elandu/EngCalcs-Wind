@@ -39,7 +39,7 @@ The separate AS/NZS 1170.2 pressure-to-frame registry method accepts reviewed ag
 shape factors, external/internal speeds and tributary geometry. It preserves force resultants
 for aligned member axes, but does not project inclined normals or handle dynamically sensitive
 structures. Source references supplied directly to OpenWind are caller assertions; verified
-saved-run links are resolved by the authenticated OpenCalcs host.
+saved-run links are resolved by the authenticated EngCalcs host.
 
 ## Data Limitations
 
