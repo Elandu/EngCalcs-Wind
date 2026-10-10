@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-License-Identifier: LicenseRef-EngCalcs-Proprietary
 # Copyright (c) 2026 Elandu and contributors
 
 """Derived AS 4055:2021 Tables 5.2(B-M) pressure lookups in kPa.
