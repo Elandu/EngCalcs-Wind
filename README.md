@@ -326,7 +326,7 @@ CI runs these checks through GitHub Actions.
 
 ## Suggested GitHub Topics
 
-`open-source`, `wind-engineering`, `structural-engineering`, `as-nzs-1170-2`, `geospatial`,
+`engineering-software`, `wind-engineering`, `structural-engineering`, `as-nzs-1170-2`, `geospatial`,
 `gis`, `terrain-analysis`, `topography`, `python`, `fastapi`, `microsoft-building-footprints`,
 `openstreetmap`
 
@@ -336,8 +336,8 @@ See [`ROADMAP.md`](ROADMAP.md) and the [v0.8 engineering release plan](docs/v0.8
 
 ## Contributing
 
-Contributions are welcome. Please read [`CONTRIBUTING.md`](CONTRIBUTING.md), keep claims
-preliminary, and do not include private project data in public issues or examples.
+Third-party contributions require prior authorisation and appropriate rights clearance.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for internal engineering and review practices.
 
 ## Security
 
@@ -346,11 +346,6 @@ See [`SECURITY.md`](SECURITY.md) for vulnerability reporting and sensitive-data 
 ## Changelog
 
 See [`CHANGELOG.md`](CHANGELOG.md).
-
-## Licence
-
-GNU Affero General Public License v3. See [`LICENSE`](LICENSE).
-
 
 ## Licence and provenance
 
