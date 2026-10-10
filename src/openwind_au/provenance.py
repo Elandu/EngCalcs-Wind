@@ -9,7 +9,7 @@ import json
 import os
 from importlib.metadata import PackageNotFoundError, distribution
 
-SOURCE_URL = "https://github.com/Elandu/OpenWind-AU"
+SOURCE_URL = "https://github.com/Elandu/EngCalcs-Wind"
 LICENSE_ID = "AGPL-3.0-only"
 
 

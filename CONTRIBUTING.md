@@ -1,13 +1,13 @@
 # Contributing
 
-Thanks for helping improve OpenWind-AU.
+This is commercially licensed EngCalcs engineering software. External code contributions must be separately authorised and accompanied by an appropriate contributor rights agreement.
 
 The project is deliberately cautious: it supports preliminary terrain and topographic analysis only. Do not add wording or features that imply certified engineering design compliance unless that work has been implemented, tested, and reviewed.
 
 ## Development Setup
 
 ```bash
-git clone https://github.com/Elandu/OpenWind-AU.git
+git clone https://github.com/Elandu/EngCalcs-Wind.git
 cd OpenWind-AU
 python -m venv .venv
 .\.venv\Scripts\activate

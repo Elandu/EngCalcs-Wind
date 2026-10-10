@@ -68,8 +68,8 @@ openwind-au-mcp = "openwind_au.mcp_server:main"
 openwind_au = "openwind_au.plugin:get_plugin"
 
 [project.urls]
-Repository = "https://github.com/Elandu/OpenWind-AU"
-Issues = "https://github.com/Elandu/OpenWind-AU/issues"
+Repository = "https://github.com/Elandu/EngCalcs-Wind"
+Issues = "https://github.com/Elandu/EngCalcs-Wind/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/openwind_au"]

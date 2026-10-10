@@ -1,6 +1,6 @@
 # Security Policy
 
-OpenWind-AU is an early-stage open-source project for preliminary terrain and topographic
+OpenWind-AU is an early-stage commercial engineering project for preliminary terrain and topographic
 screening. Please report security issues responsibly.
 
 ## Supported Versions
