@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-License-Identifier: LicenseRef-EngCalcs-Proprietary
 # Copyright (c) 2026 Elandu and contributors
 
 """Domain exceptions shared by HTTP, streaming, and MCP entry points."""
