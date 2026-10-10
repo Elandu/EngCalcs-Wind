@@ -8,7 +8,7 @@ version = "0.8.0"
 description = "Preliminary wind site terrain and topographic analysis for Australian buildings using public geospatial datasets."
 readme = "README.md"
 requires-python = ">=3.11"
-license = "AGPL-3.0-only"
+license = "LicenseRef-EngCalcs-Proprietary"
 authors = [
   { name = "Elandu" }
 ]
@@ -24,7 +24,7 @@ keywords = [
 classifiers = [
   "Development Status :: 2 - Pre-Alpha",
   "Intended Audience :: Science/Research",
-  "License :: OSI Approved :: GNU Affero General Public License v3",
+  "License :: Other/Proprietary License",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
@@ -68,8 +68,8 @@ openwind-au-mcp = "openwind_au.mcp_server:main"
 openwind_au = "openwind_au.plugin:get_plugin"
 
 [project.urls]
-Repository = "https://github.com/Elandu/OpenWind-AU"
-Issues = "https://github.com/Elandu/OpenWind-AU/issues"
+Repository = "https://github.com/Elandu/EngCalcs-Wind"
+Issues = "https://github.com/Elandu/EngCalcs-Wind/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/openwind_au"]

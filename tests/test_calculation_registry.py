@@ -124,5 +124,5 @@ def test_plugin_publishes_source_and_licence_provenance(monkeypatch) -> None:
     descriptor = plugin.descriptor()
 
     assert descriptor["revision"] == "openwind-test-revision"
-    assert descriptor["license"] == "AGPL-3.0-only"
-    assert descriptor["source"] == "https://github.com/Elandu/OpenWind-AU"
+    assert descriptor["license"] == "LicenseRef-EngCalcs-Proprietary"
+    assert descriptor["source"] == "https://github.com/Elandu/EngCalcs-Wind"

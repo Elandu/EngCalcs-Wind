@@ -4,8 +4,8 @@ title: "OpenWind-AU"
 version: "0.8.0"
 authors:
   - name: "Elandu"
-repository-code: "https://github.com/Elandu/OpenWind-AU"
-license: "AGPL-3.0-only"
+repository-code: "https://github.com/Elandu/EngCalcs-Wind"
+license-url: "https://github.com/Elandu/EngCalcs-Wind/blob/main/LICENSE"
 keywords:
   - wind engineering
   - terrain analysis

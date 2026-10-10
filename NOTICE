@@ -1,20 +1,19 @@
-OpenWind-AU
+OpenWind-AU / EngCalcs-Wind
 Copyright (c) 2026 Elandu and contributors
 
-OpenWind-AU is licensed under the GNU Affero General Public License v3.0 only
-(AGPL-3.0-only). See LICENSE for the full licence text.
+This new revision is proprietary for publisher-controlled original software
+rights (see LICENSE). Historical public releases were licensed under
+AGPL-3.0-only; their original licence grants and attribution obligations
+remain valid. No historical licence is revoked by this newer revision.
 
-Canonical source:
-https://github.com/Elandu/OpenWind-AU
+Canonical source: https://github.com/Elandu/EngCalcs-Wind
 
-OpenWind-AU calculation modules expose source, licence, version and revision
-metadata through the OpenCalcs plugin contract so engineering records can
-identify the software used to produce them.
+Public DEM, GIS, OpenStreetMap/Overpass, building-footprint and other data
+sources are separately owned or licensed. Preserve their relevant attribution,
+usage, redistribution and data-source terms. Python, JS and other dependencies
+retain their own licences. EngCalcs does not claim proprietary rights in any
+third-party datasets or Australian Standards publications.
 
-If you modify OpenWind-AU and make the modified program available for remote
-network interaction, the AGPL requires that users be offered the corresponding
-source code for the version with which they interact.
-
-The OpenWind-AU name and branding are not granted for use beyond rights that
-may otherwise exist under applicable law. The software licence does not grant
-trademark rights.
+Runtime/module provenance reports identify the revision and licence actually
+shipped; values must not be relabelled for older AGPL installations.
+The OpenWind-AU/EngCalcs trademarks and visual identity are reserved.

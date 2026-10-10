@@ -1,9 +1,8 @@
 # OpenWind-AU
 
-[![CI](https://github.com/Elandu/OpenWind-AU/actions/workflows/ci.yml/badge.svg)](https://github.com/Elandu/OpenWind-AU/actions/workflows/ci.yml)
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
+[![CI](https://github.com/Elandu/EngCalcs-Wind/actions/workflows/ci.yml/badge.svg)](https://github.com/Elandu/EngCalcs-Wind/actions/workflows/ci.yml)
 
-OpenWind-AU is an open-source Python/FastAPI application for interactive preliminary wind
+OpenWind-AU is a commercially licensed Python/FastAPI application for interactive preliminary wind
 assessment of Australian building sites. It combines terrain-category evidence, directional
 AS/NZS 1170.2 wind-speed calculations, obstruction inventory, and topographic analysis into a
 reviewable engineer-facing workflow with HTML/PDF reporting and an MCP API.
@@ -13,14 +12,14 @@ reviewable engineer-facing workflow with HTML/PDF reporting and an MCP API.
 
 Current maturity: pre-alpha. The project provides an interactive wind assessment workflow with
 directional AS/NZS 1170.2 calculations, terrain-category evidence, and MCP API tools, but is not a
-certified design tool. Suitable for exploration, review, contribution, and regression testing.
+certified design tool. Suitable for engineering exploration, review and regression testing.
 
 ## Who It Is For
 
 - Structural and facade engineers reviewing terrain context.
 - Wind engineering researchers and tool builders.
 - Building consultants preparing early site-screening information.
-- Open-source contributors interested in geospatial engineering workflows.
+- Engineering teams integrating traceable wind calculations with projects.
 
 ## What It Does
 
@@ -127,7 +126,7 @@ does not mean the wheel failed to install.
 For a development checkout, install from source:
 
 ```bash
-git clone https://github.com/Elandu/OpenWind-AU.git
+git clone https://github.com/Elandu/EngCalcs-Wind.git
 cd OpenWind-AU
 python -m venv .venv
 .\.venv\Scripts\activate
@@ -355,9 +354,9 @@ GNU Affero General Public License v3. See [`LICENSE`](LICENSE).
 
 ## Licence and provenance
 
-OpenWind-AU is licensed under `AGPL-3.0-only`. See `LICENSE` and `NOTICE`.
+The current release is proprietary (`LICENSE`, `LICENSING.md`). Earlier released AGPL revisions retain their original open-source rights; this transition cannot revoke previous grants.
 
-Canonical source: https://github.com/Elandu/OpenWind-AU
+Canonical source: https://github.com/Elandu/EngCalcs-Wind
 
 Every OpenCalcs plugin descriptor published by OpenWind-AU includes the engine
 version, source revision when available, licence identifier, and canonical source URL.

@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-License-Identifier: LicenseRef-EngCalcs-Proprietary
 # Copyright (c) 2026 Elandu and contributors
 
 """Source and licence provenance for OpenWind-AU."""
@@ -9,8 +9,8 @@ import json
 import os
 from importlib.metadata import PackageNotFoundError, distribution
 
-SOURCE_URL = "https://github.com/Elandu/OpenWind-AU"
-LICENSE_ID = "AGPL-3.0-only"
+SOURCE_URL = "https://github.com/Elandu/EngCalcs-Wind"
+LICENSE_ID = "LicenseRef-EngCalcs-Proprietary"
 
 
 def source_revision() -> str:
